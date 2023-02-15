@@ -5,11 +5,17 @@ Find the zero points but then because 72 is not prime we must factorize it and c
 The first solutions are $n \equiv 2 \pmod{72}$ and $n \equiv 3 \pmod{72}$
 
 The factor pairs of 72 are 
+
 1 and 72
+
 2 and 36
+
 3 and 24
+
 4 and 18 
+
 6 and 12
+
 8 and 9
 
 Now we must look for choices of $n$ which satisfy  $(n-2)(n-3) \equiv 0 \pmod{72}$ where $(n-2) \not\equiv 0 \pmod{72}$ and $(n-3) \not\equiv 0 \pmod{72}$
@@ -24,5 +30,5 @@ From this we can now state all 4 possible values of $n$ 2,3,11,66.
 
 If there is a more rigourous method to ensure all solutions are found please let me know, I think I'm forgetting a theorem here
 
-This is alluded to here "In order to describe the solutions of a polynomial $f(x)$ over $\Z_n$ for any $n$, we need to find the roots of $f(x)$ over $\Z_{p^k} for prime powers $p^k$. We shall leave this for later." on this webpage https://crypto.stanford.edu/pbc/notes/numbertheory/poly.html
+This is alluded to here "In order to describe the solutions of a polynomial $f(x)$ over $Z_n$ for any $n$, we need to find the roots of $f(x)$ over $Z_{p^k}$ for prime powers $p^k$. We shall leave this for later." on this webpage https://crypto.stanford.edu/pbc/notes/numbertheory/poly.html
 
