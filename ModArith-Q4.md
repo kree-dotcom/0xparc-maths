@@ -7,8 +7,8 @@ subtract 7
 $5n \equiv -5 \equiv 8 \pmod{13}$
 
 Multiply by multiplicative inverse of $5  \pmod{13}$, 8. 
-This can quickly be found by recognising that $5*5 \equiv 25 \equiv -1 \pmod{13}$
-Therefore $5* -5 \equiv 1 \pmod{13}$ and $-5 \equiv 8 \pmod{13}$
+This can quickly be found by recognising that $5 \times 5 \equiv 25 \equiv -1 \pmod{13}$
+Therefore $5 \times -5 \equiv 1 \pmod{13}$ and $-5 \equiv 8 \pmod{13}$
 
 $n \equiv 64 \equiv 12 \pmod{13}$
 
