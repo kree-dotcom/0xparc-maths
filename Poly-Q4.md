@@ -5,7 +5,7 @@ https://brilliant.org/wiki/vietas-formula/
 Viete's formula:
 Let $P(x) = a_nx^n+a_{n-1}x^{n-1}+...+a_0$ be a polynomial with complex coefficients and degree $n$, having complex roots $r_n,r_{n-1},...r_1$. Then for any integer $k \in [0,n]$,
 
-$sum\limits_{1 \leq i_1 < i_2 < ... < i_k \leq n} r_{i_1} r_{i_2} ... r_{i_k} = (-1)^k \frac{a_n -k}{a_n}$
+$\sum\limits_{1 \leq i_1 < i_2 < ... < i_k \leq n} r_{i_1} r_{i_2} ... r_{i_k} = (-1)^k \frac{a_n -k}{a_n}$
 
 A specific case of this formula allows us to calculate the product of the roots like so:
 
