@@ -4,7 +4,7 @@ i. What is the third-smallest positive value of $x$ for which $2^x \equiv 3$ (mo
 
 
 By Lagrange's theorem as the order of a element in a group must divide the order of the group we can tell that
-the order of the element 2 must divide the order of $\mathds{Z}_{13}$ therefore it must be 1 or 13. It is trivially not 1 and so 2 must be a generator of $\mathds{Z}_{13}$ as it is also order 13. 
+the order of the element 2 must divide the order of $Z_{13}$ therefore it must be 1 or 13. It is trivially not 1 and so 2 must be a generator of $Z_{13}$ as it is also order 13. 
 
 
 Our first step then is to find the first-smallest positive value where 

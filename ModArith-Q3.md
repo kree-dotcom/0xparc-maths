@@ -56,11 +56,11 @@ $48 \equiv 6  \pmod{7}$
  
 ii. This problem is not as simple because 6 is not coprime to 8 and so we cannot apply the previous method straight away.
 
-First we must find a way to get a system of modulos that are coprime. Looking at $n \equiv 5 \pmod(6)$ and $n \equiv 7 \pmod(8)$ we can deduce another modulo relationship for the greatest common divisor of 6 and 8, 24. 
+First we must find a way to get a system of modulos that are coprime. Looking at $n \equiv 5 \pmod{6}$ and $n \equiv 7 \pmod{8}$ we can deduce another modulo relationship for the greatest common divisor of 6 and 8, 24. 
 
-If $n \equiv 5 \pmod(6)$ then $n \in (5,11,17,23) \pmod(24) 
+If $n \equiv 5 \pmod{6}$ then $n \in (5,11,17,23) \pmod{24}$ 
 
-and if $n \equiv 7 \pmod(8)$ then $n \in (7,15,23) \pmod(24) therefore we can see the only solution that solves both equations is $n \equiv 23 \pmod{24}$.
+and if $n \equiv 7 \pmod{8}$ then $n \in (7,15,23) \pmod{24}$ therefore we can see the only solution that solves both equations is $n \equiv 23 \pmod{24}$.
 
 We now have the system of equations $n \equiv 23 \pmod{24}$ and $n \equiv 6 \pmod{7}$ here 24 and 7 are coprime so the same Chinese remainder theorem we used in part i can be applied again.
 
@@ -77,7 +77,7 @@ $b_2 = 6$
 We wish to solve $N_i x_i \equiv 1 \pmod{n_i}$  for i = 1,2
 
 When i = 1: 
-$7x_1 \equiv 1 \pmod{24}
+$7x_1 \equiv 1 \pmod{24}$
 
 7 is self-inverse modulo 24 so $x_1 \equiv 7 \pmod(24)$
 
@@ -98,7 +98,7 @@ $X = 7 \times 7 \times 23 + 5 \times 24 \times 6$
 
 $X = 1847$
 
-$1847 \equiv 167 \pmod{168}$ so $n \equiv 167 \pmod{168} is our answer.
+$1847 \equiv 167 \pmod{168}$ so $n \equiv 167 \pmod{168}$ is our answer.
 
 Again we can check this against the original question
 
