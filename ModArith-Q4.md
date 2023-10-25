@@ -26,7 +26,7 @@ $n \equiv 2 \pmod{4}$
 
 However as the original problem was $\pmod{12}$ we must state all solutions so when $n \in (2,6,10)$
 
-iv. $19n \equiv 1 \pmod(257)$ 19,1 and 257 are all prime so the problem cannot be reduced.
+iv. $19n \equiv 1 \pmod{257}$ 19,1 and 257 are all prime so the problem cannot be reduced.
 
 We wish to find the multiplicative inverse of $19 \pmod{257}$, 230. 
 
@@ -39,8 +39,10 @@ The extended Euclidean algorithm is explained here http://www-math.ucdenver.edu/
 For our calculation we find the multiplicative inverse of 19 modulo 257 as follows:
 
 $257 = 13 \times 19 + 10$
-$ 19 = 1 \times 10 + 9 $
-$10 = 1 \times 9 + 1 $
+
+$19 = 1 \times 10 + 9$
+
+$10 = 1 \times 9 + 1$
 
 Now that we have found a remainder 1 we rearrange each equation to make the remainder the subject
 
@@ -54,6 +56,6 @@ $1 = 10 - 1 \times (19 - 1 \times 10) = 2 \times 10 - 19$
 
 $1 = 2 \times (257 - 13 \times 19) - 19 = 2 \times 257 - 27 \times 19 $
 
-Therefore multiplying 19 -27 times will give us the multiplicative inverse of 19 modulo 257 and $-27 \equiv 230 \pmod{257}
+Therefore multiplying 19 -27 times will give us the multiplicative inverse of 19 modulo 257 and $-27 \equiv 230 \pmod{257}$
 
 Multiplying our original equation by this gives us the answer $n \equiv 230 \pmod{257}$ 
